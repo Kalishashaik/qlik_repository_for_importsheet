@@ -13,6 +13,14 @@
       "qType": "LoadModel"
     },
     {
+      "qId": "_gitoqlikLastCommitId",
+      "qType": "_gitoqlikLastCommitId"
+    },
+    {
+      "qId": "aSPpSSg",
+      "qType": "table"
+    },
+    {
       "qId": "e1dd5c0b-0608-49a8-8db9-661a16ae1345",
       "qType": "sheet"
     },
