@@ -1,0 +1,21 @@
+///$tab Main
+T_DIM_STATION_PNL:
+LOAD
+    pnl_station_id,
+    pnl_branch_cd  as [P&L Branch Code],
+    pnl_branch_nm  as  [P&L Branch Name],
+    pnl_currency_cd   as [P&L Currency Code],
+   // pnl_org_unit_crest_cd  as [P&L Org Unit Crest Code],
+   // pnl_org_unit_crest_nm  as [P&L Org Unit Crest Name],
+    pnl_rep_unit_crest_cd  as [P&L Rep Unit Crest Code],
+    pnl_rep_unit_crest_nm as [P&L Rep Unit Crest Name],
+    pnl_territory_cd  as [P&L Territory Code],
+    pnl_territory_nm  as [P&L Territory Name],
+    pnl_country_cd,
+    Trim(pnl_territory_nm) as GeoKey,
+    pnl_subregion_cd  as [P&L Sub Region Code],   
+    pnl_subregion_nm  as [P&L Sub Region Name],
+    pnl_region_cd  as [P&L Region Code],
+    pnl_region_nm  as [P&L Region Name] 
+  FROM [lib://FRP_Forwin/Source Data/QVD File/V_DIM_LOCATION_PNL.qvd]
+(qvd);

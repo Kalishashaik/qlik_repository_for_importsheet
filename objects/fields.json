@@ -1,0 +1,229 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 14,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 14,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "pnl_station_id",
+    "qCardinal": 2879,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Branch Code",
+    "qCardinal": 2134,
+    "qTags": [],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Branch Name",
+    "qCardinal": 1915,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Currency Code",
+    "qCardinal": 146,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Rep Unit Crest Code",
+    "qCardinal": 109,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Rep Unit Crest Name",
+    "qCardinal": 109,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Territory Code",
+    "qCardinal": 203,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Territory Name",
+    "qCardinal": 202,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "pnl_country_cd",
+    "qCardinal": 195,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "GeoKey",
+    "qCardinal": 202,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Sub Region Code",
+    "qCardinal": 22,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Sub Region Name",
+    "qCardinal": 22,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Region Code",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  },
+  {
+    "qName": "P&L Region Name",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "T_DIM_STATION_PNL"
+    ]
+  }
+]
